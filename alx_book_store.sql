@@ -1,10 +1,10 @@
 --not empty
-create DATABASE IF NOT EXISTS alx_book_store;
+CREATE DATABASE IF NOT EXISTS alx_book_store;
 use alx_book_store;
 
 -- Authors: Stores information about authors.
-create table Authors(
-    author_id int Primary Key,
+CREATE TABLE Authors(
+    author_id INT PRIMARY KEY,
     author_name VARCHAR(215)
 );
 
