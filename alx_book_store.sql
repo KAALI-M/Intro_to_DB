@@ -29,10 +29,10 @@ CREATE TABLE Customers(
 
 -- Orders: Stores information about orders placed by customers.
 CREATE TABLE Orders(
-    order_id int AUTO_INCREMENT Primary Key,
+    order_id INT AUTO_INCREMENT Primary Key,
     customer_id INT,
     order_date DATE,
-    FOREIGN KEY customer_id REFERENCES Customers(customer_id)
+    FOREIGN KEY (customer_id) REFERENCES Customers(customer_id)
 );
 -- Order_Details: Stores information about the books included in each order.
 
