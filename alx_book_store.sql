@@ -1,5 +1,5 @@
 --not empty
-create database alx_book_store;
+create DATABASE IF NOT EXISTS alx_book_store;
 use alx_book_store;
 
 -- Authors: Stores information about authors.
